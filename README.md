@@ -40,7 +40,7 @@ Pasamos a explicar los elementos que tienen más desarrollo y funcionalidades de
   - La última entrada con funcionalidades es la entrada de texto *JTextField*.
       En el caso del input debe gestionarse la diferenciación entre números y otro tipo de input que se pase por teclado. Para ello utilizo la función *public boolean esUnDouble(String input);*.
       ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/a1b9f688-8c5f-45ed-a424-89d21546b4ce)
-      Esta me permite comprobar si los imputs son valores enteros o contienen decimales con ambas comas en cada instancia del código que sea llamada.
+    Esta me permite comprobar si los imputs son valores enteros o contienen decimales con ambas comas en cada instancia del código que sea llamada.
       Se puede ver por ejemplo usándose en la función *gestionarAccionDesplegable(JComboBox desplegablePorcentajes);* explicada en más arriba en profundidad.
       Los *JTextField* de salida simplemente muestran el output calculado con cada opción seleccionada en el desplegable.
     Los *try-catch* colocados en las funciones de input controlan si se produce una excepcion por incorrecto tipo de input, o también posibles problemas de condición
