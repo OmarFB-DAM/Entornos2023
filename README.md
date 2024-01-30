@@ -26,11 +26,14 @@ Pasamos a explicar los elementos que tienen más desarrollo y funcionalidades de
 
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/67c9a404-6a42-4141-8e0c-a3bbdda3e55b)
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/5b39931b-eabe-48d8-9555-d65a83e7ef54)
+
 Esta diversidad de opciones la conseguimos primero utilizando el listener propio de los *JComboBox*, que es el elemento que usa Java swing para generar desplegables.
    ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/61f8f86c-405f-4068-a7fd-cee2546a4d4c)
     Podemos ver la segunda razón por la cuál disponemos y manejamos diferentes funcionalidades y se trata de la función *gestionarAccionDesplegable(JComboBox desplegablePorcentajes);*.
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/57957507-8901-4116-bdc7-e64960e1de33)
+
 En esta se tratan tanto las opciones posibles seleccionadas en el desplegable como posibles errores de entrada.
+
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/d8297ab1-cd93-4137-b577-c6c84b447f07) ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/3ecde67f-8ccf-4a5f-ba59-b82668ab8391)
     ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/11618140-3e03-4103-bb8f-7ea690ea79ad)
     ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/94fb766e-2603-4f1b-9271-2bd469090674)
