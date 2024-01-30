@@ -73,6 +73,7 @@ public class TipMaster extends JFrame {
 		input = entradaTextoImporte.getText();
 		seleccion = desplegablePorcentajes.getSelectedIndex();
 		if (esUnDouble(input)) {
+			
 			double valorImporteInicial = Double.valueOf(input.replace(',', '.'));
 			double valorPropina, valorTotal;
 			switch (seleccion) {
@@ -119,8 +120,9 @@ public class TipMaster extends JFrame {
 		}
 	}
 
+
 	public boolean esUnDouble(String input) {
-		return input.matches("\\d+(\\,\\d+)?");
+		return input.matches("\\d+(\\,\\d+)?") || input.matches("\\d+(\\.\\d+)?");
 	}
 
 	/**
