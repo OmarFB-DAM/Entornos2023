@@ -23,16 +23,19 @@ Pasamos a explicar los elementos que tienen más desarrollo y funcionalidades de
     ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/c27b2a13-096f-4bb4-8b74-756a8e15e9d7)
   - Podemos elegir una opcion del desplegable y luego escribir texto en el cuadro de la izquierda. O podemos directamente
     escribir una cantidad por pantalla y después escoger el porcentaje deseado.
+
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/67c9a404-6a42-4141-8e0c-a3bbdda3e55b) ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/e17e6a9b-8259-413a-b34d-fc4800c74340)
     Esta diversidad de opciones la conseguimos primero utilizando el listener propio de los *JComboBox*, que es el elemento que usa Java swing para generar desplegables.
     ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/61f8f86c-405f-4068-a7fd-cee2546a4d4c)
     Podemos ver la segunda razón por la cuál disponemos y manejamos diferentes funcionalidades y se trata de la función *gestionarAccionDesplegable(JComboBox desplegablePorcentajes);*.
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/57957507-8901-4116-bdc7-e64960e1de33)
+
     En esta se tratan tanto las opciones posibles seleccionadas en el desplegable como posibles errores de entrada.
     ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/d8297ab1-cd93-4137-b577-c6c84b447f07) ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/3ecde67f-8ccf-4a5f-ba59-b82668ab8391) ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/11618140-3e03-4103-bb8f-7ea690ea79ad)
  ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/94fb766e-2603-4f1b-9271-2bd469090674)
   - Otra funcionalidad importante se consigue con el *CaretListener*
     ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/2c966d47-ed1e-4e46-890a-2d8a8d2d286f)
+
 Se puede apreciar en los comentarios del código pero en resumen, sería una escucha de cambio en el cuadro de texto.
     Para que se actualice la salida en cuanto cambiamos la entrada, lo que nos habilita primero escoger el porcentaje y luego escribir la cuantía.
   - El boton *Clear* es un JButton que tiene un *MouseListener* para realizar la acción una vez sea pulsado.
@@ -40,6 +43,7 @@ Se puede apreciar en los comentarios del código pero en resumen, sería una esc
   - La última entrada con funcionalidades es la entrada de texto *JTextField*.
       En el caso del input debe gestionarse la diferenciación entre números y otro tipo de input que se pase por teclado. Para ello utilizo la función *public boolean esUnDouble(String input);*.
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/a1b9f688-8c5f-45ed-a424-89d21546b4ce)
+
 Esta me permite comprobar si los imputs son valores enteros o contienen decimales con ambas comas en cada instancia del código que sea llamada.
       Se puede ver por ejemplo usándose en la función *gestionarAccionDesplegable(JComboBox desplegablePorcentajes);* explicada en más arriba en profundidad.
       Los *JTextField* de salida simplemente muestran el output calculado con cada opción seleccionada en el desplegable.
