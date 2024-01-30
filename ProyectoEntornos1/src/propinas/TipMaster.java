@@ -108,8 +108,8 @@ public class TipMaster extends JFrame {
 		} else {
 			if (!input.isBlank()) {
 					entradaTextoImporte.setText("Introduce un valor numérico.");
-					porcentajePropinaTexto.setText("Error");
-					resultadoFactura.setText("Error");
+					porcentajePropinaTexto.setText("");
+					resultadoFactura.setText("");
 			}
 		}
 	}
