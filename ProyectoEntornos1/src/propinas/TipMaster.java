@@ -107,15 +107,9 @@ public class TipMaster extends JFrame {
 
 		} else {
 			if (!input.isBlank()) {
-				if (input.matches("\\d+")) {
-					entradaTextoImporte.setText("Utiliza la coma española \",\"");
-					porcentajePropinaTexto.setText("Error");
-					resultadoFactura.setText("Error");
-				} else {
 					entradaTextoImporte.setText("Introduce un valor numérico.");
 					porcentajePropinaTexto.setText("Error");
 					resultadoFactura.setText("Error");
-				}
 			}
 		}
 	}
