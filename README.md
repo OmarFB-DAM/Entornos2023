@@ -13,6 +13,7 @@ Como podemos ver el programa consta de una ventana que contiene:
   el cuadro de texto bajo la etiqueta que indica el input del usuario, donde se debe introducir un valor ya sea entero o
   con coma(la coma puede ser escrita en con la coma española local ',' o la coma extranjera '.').
  - Por último un selector desplegable con las opciones de la propina que quieras seleccionar; actualmente son 4 opciones.
+   
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/4408cf8a-75fc-4a29-bf42-f0279e21486e)
 
 Los textos planos son JLabels  estáticos sin ninguna funcionalidad.
