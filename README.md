@@ -25,9 +25,8 @@ Pasamos a explicar los elementos que tienen más desarrollo y funcionalidades de
     escribir una cantidad por pantalla y después escoger el porcentaje deseado.
 
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/67c9a404-6a42-4141-8e0c-a3bbdda3e55b) ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/5b39931b-eabe-48d8-9555-d65a83e7ef54)
-
     Esta diversidad de opciones la conseguimos primero utilizando el listener propio de los *JComboBox*, que es el elemento que usa Java swing para generar desplegables.
-    ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/61f8f86c-405f-4068-a7fd-cee2546a4d4c)
+   ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/61f8f86c-405f-4068-a7fd-cee2546a4d4c)
     Podemos ver la segunda razón por la cuál disponemos y manejamos diferentes funcionalidades y se trata de la función *gestionarAccionDesplegable(JComboBox desplegablePorcentajes);*.
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/57957507-8901-4116-bdc7-e64960e1de33)
 
