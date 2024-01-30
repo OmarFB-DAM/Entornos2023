@@ -31,8 +31,10 @@ Pasamos a explicar los elementos que tienen más desarrollo y funcionalidades de
 ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/57957507-8901-4116-bdc7-e64960e1de33)
 
     En esta se tratan tanto las opciones posibles seleccionadas en el desplegable como posibles errores de entrada.
-    ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/d8297ab1-cd93-4137-b577-c6c84b447f07) ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/3ecde67f-8ccf-4a5f-ba59-b82668ab8391) ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/11618140-3e03-4103-bb8f-7ea690ea79ad)
- ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/94fb766e-2603-4f1b-9271-2bd469090674)
+    ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/d8297ab1-cd93-4137-b577-c6c84b447f07) 
+    ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/3ecde67f-8ccf-4a5f-ba59-b82668ab8391)
+    ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/11618140-3e03-4103-bb8f-7ea690ea79ad)
+    ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/94fb766e-2603-4f1b-9271-2bd469090674)
   - Otra funcionalidad importante se consigue con el *CaretListener*
     ![image](https://github.com/OmarFB-DAM/Entornos2023/assets/153750217/2c966d47-ed1e-4e46-890a-2d8a8d2d286f)
 
