@@ -1,5 +1,3 @@
-package propinas;
-
 import java.awt.Container;
 import java.awt.EventQueue;
 
@@ -124,7 +122,7 @@ public class TipMaster extends JFrame {
 	 */
 	public TipMaster() {
 		setResizable(false);
-		setIconImage(Toolkit.getDefaultToolkit().getImage(TipMaster.class.getResource("/propinas/imagenes/north-store-icons-03.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(TipMaster.class.getResource("/imagenes/north-store-icons-03.png")));
 		Locale locale = new Locale("es", "ES");
 		Locale.setDefault(locale); 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -139,10 +137,10 @@ public class TipMaster extends JFrame {
 		JLabel label = new JLabel();
 		contentPane.add(label, BorderLayout.CENTER);
 		
-		JLabel peticion⁪ImporteLabel = new JLabel("Ingrese el importe de su factura");
-		peticion⁪ImporteLabel.setBounds(30, 35, 200, 14);
-		peticion⁪ImporteLabel.setFont(new Font("Candara", Font.BOLD, 14));
-		peticion⁪ImporteLabel.setHorizontalAlignment(SwingConstants.CENTER);
+		JLabel peticionImporteLabel = new JLabel("Ingrese el importe de su factura");
+		peticionImporteLabel.setBounds(30, 35, 200, 14);
+		peticionImporteLabel.setFont(new Font("Candara", Font.BOLD, 14));
+		peticionImporteLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
 		//entradaTextoImporte = new JFormattedTextField(new NumberFormatter(new DecimalFormat("###,###.##")));
 		entradaTextoImporte = new JTextField();
@@ -239,7 +237,7 @@ public class TipMaster extends JFrame {
 			}
 		});
 		contentPane.setLayout(null);
-		contentPane.add(peticion⁪ImporteLabel);
+		contentPane.add(peticionImporteLabel);
 		contentPane.add(propinasLabel);
 		contentPane.add(limpiarButton);
 		contentPane.add(porcentajePropinaLabel);
