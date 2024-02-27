@@ -38,6 +38,7 @@ Una vez compilado y habiendose generado los .class simplemente introduciendo est
 
 ## Documentación
 
+Carpeta que contiene las imágenes y gifs demostración del proyecto. Además también se incluye el siguiente documento con toda la información referente al mismo.
 [README explicativo del proyecto y su lógica.](https://github.com/OmarFB-DAM/Entrega-calculadora-de-propinas/tree/main/Documentación)
 
 Manual con las posibilidades de la aplicación TipMaster.java y de los recursos utilizados para su funcionamiento con capturas y explicaciones extendidas de cada apartado del programa.
@@ -48,7 +49,7 @@ Manual con las posibilidades de la aplicación TipMaster.java y de los recursos 
 
 * Pantalla inicial del programa.
 
-![Pantalla inicial](https://github.com/OmarFB-DAM/Entrega-calculadora-de-propinas/blob/main/Documentaci%C3%B3n/Captura%de%pantalla%inicial.png)
+![Pantalla inicial](https://github.com/OmarFB-DAM/Entrega-calculadora-de-propinas/Documentación/Captura de pantalla inicial.png)
 
 * Ejemplos de uso con casos que dan una salida correcta del programa. 
 
