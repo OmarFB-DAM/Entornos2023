@@ -49,7 +49,7 @@ Manual con las posibilidades de la aplicación TipMaster.java y de los recursos 
 
 * Pantalla inicial del programa.
 
-![Pantalla inicial](https://github.com/OmarFB-DAM/Entrega-calculadora-de-propinas/Documentación/Captura de pantalla inicial.png)
+![Pantalla inicial](https://github.com/OmarFB-DAM/Entrega-calculadora-de-propinas/blob/main/Documentaci%C3%B3n/Captura%20de%20pantalla%20inicial.png)
 
 * Ejemplos de uso con casos que dan una salida correcta del programa. 
 
